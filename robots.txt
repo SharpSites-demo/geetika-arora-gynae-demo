@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sharpsites-demo.github.io/geetika-arora-gynae-demo/sitemap.xml
