@@ -1,0 +1,12 @@
+name: Publish reviewed Geetika Arora redesign
+on:
+  push:
+    branches: [gh-pages]
+    paths: [.github/workflows/publish-reviewed-20260915.yml]
+permissions:
+  contents: write
+jobs:
+  publish:
+    uses: SharpSites-demo/sparta-gym-spa-ritik-demo/.github/workflows/publish-reviewed-html.yml@41cd0e039ca25ad2234ffc0978649d9e00875f09
+    with:
+      expected_sha256: 1aa9641c05170a1e7aa985b48e45bed52a01eab2a2f88a08d06fc347322a68a6
